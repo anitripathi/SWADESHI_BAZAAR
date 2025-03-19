@@ -1,0 +1,60 @@
+.header1-row{
+    background-color: white;
+    color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.header2-row{
+    background-color: white;
+    color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.logo {
+    max-width: 100%;
+    height: 60px;
+    border: 2px solid #333; 
+}
+.user{
+    
+    height: 50px;
+    margin-right: 20px;
+    
+}
+.nav-link{
+    color: black;
+    margin-right: 10px;
+}
+body {
+    /* Set the background image and configure its properties */
+    /*background-image: url('bg9.jpeg');/*Replace with your image file path*/
+    background-color: rgb(255, 255, 255);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height based on your content */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+}
+/* Adjust the width and height of the carousel */
+#carouselExample {
+    max-width: 100vw; /* Set your desired maximum width */
+    margin-top: auto;
+}
+
+/* Adjust the width and height of the carousel images */
+.carousel-inner img {
+    max-width: 100%;
+    height: 350px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(252, 166, 166, 0.9);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.btn{
+    background-color: #333;
+    
+}
+
+

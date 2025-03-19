@@ -1,0 +1,350 @@
+.header1-row {
+  background-color: rgb(240, 229, 229);
+  color: black;
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+.header2-row {
+  background-color: rgb(236, 233, 233);
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 7px;
+  color: black;
+  margin-top: 10px;
+}
+body {
+  /* Set the background image and configure its properties */
+  /*background-image: url('bg9.jpeg');/*Replace with your image file path*/
+  background-color: #f0f0f0;
+  ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* Adjust the height based on your content */
+  margin: 0;
+  /* Remove default margin to fill the entire viewport */
+}
+.logo {
+    max-width: 100%;
+    height: 60px;
+    border: 2px solid #333; 
+}
+.user{
+    
+    height: 50px;
+    margin-right: 20px;
+    
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+body {
+    /* Set the background image and configure its properties */
+    /*background-image: url('bg9.jpeg');/*Replace with your image file path*/
+    background-color: rgb(255, 255, 255);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height based on your content */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+}
+/* Adjust the width and height of the carousel */
+#carouselExample {
+    max-width: 100vw; /* Set your desired maximum width */
+    margin-top: 20px;
+}
+
+/* Adjust the width and height of the carousel images */
+.carousel-inner img {
+    max-width: 100%;
+    height: 350px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(252, 166, 166, 0.9);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.btn{
+    background-color: #333;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 128px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    margin-top: -36px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .containergb {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   .imageglobe img {
+     max-width: 100%;
+     max-height:100%;
+     margin-left: 250px;
+     
+   }
+   
+   .textofside {
+     font-size: 10px;
+     margin-left: 45px;
+   }
+
+   /* developer css */
+
+   .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Developer Section Styles */
+#developer-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+#developer-section h2{
+  font-size: 4rem;
+  margin: 10px;
+}
+
+.developer {
+  display: inline-block; /* Display developer info in line */
+  margin: 0 64px 20px; /* Add margin around each developer */
+}
+
+.developer img {
+  width: 170px;
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.developer h3 {
+  margin-top: 0;
+}
+
+.developer p {
+  margin-bottom: 5px;
+}
+
+.features {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Align items vertically */
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+  padding: 22px;
+  border: 8px solid #ccc;
+  border-radius: 20px;
+  margin-right: 17px;
+  margin: 20px;
+}
+
+.feature:last-child {
+  margin-right: 0; /* Remove margin from the last feature */
+}
+
+.feature img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  margin: 0;
+}
+
+.feature p {
+  margin: 0;
+}
+.glbfeat{
+  background-color: #f9f9f9;
+}
+
+/* bhavya  */
+
+
+/* Adjust the width and height of the carousel */
+#carouselExample {
+  max-width: 100vw;
+  /* Set your desired maximum width */
+  margin-top: 7px;
+}
+
+/* Adjust the width and height of the carousel images */
+.carousel-inner img {
+  max-width: 100%;
+  height: 400px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(18, 17, 17, 0.9);
+  transform: scale(1.05);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.btn {
+  background-color: #333;
+
+}
+
+.hori-slidebar {
+  margin-top: 12px;
+}
+
+.horiimg {
+  width: 400px;
+  height: 300px;
+}
+
+.horiimg:hover {
+  box-shadow: 0 4px 8px rgba(66, 66, 66, 0.9);
+  transform: scale(.9);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.scrollmenu {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  /* Set the width to 100% */
+}
+
+/* Style for individual image and text container */
+.scrollmenu div {
+  display: inline-block;
+  margin-right: 10px;
+  /* Add some spacing between each image and text container */
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.discount-text {
+  color: black;
+}
+
+.grey {
+  color: #333;
+}
+
+.banner{
+  width: 1510px;
+  margin-top: 10px;
+}
+
+
+
+
+
+

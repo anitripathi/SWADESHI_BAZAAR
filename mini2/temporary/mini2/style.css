@@ -1,0 +1,128 @@
+.header1-row {
+    background-color: white;
+    color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.header2-row {
+    background-color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 7px;
+}
+
+.logo {
+    max-width: 90%;
+    height: 50px;
+    border: 2px solid #333;
+}
+
+.search {
+    width: 400px;
+    margin-right: 250px;
+}
+
+.user {
+
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+.nav-link {
+    color: black;
+    margin-right: 10px;
+}
+
+body {
+    /* Set the background image and configure its properties */
+    /*background-image: url('bg9.jpeg');/*Replace with your image file path*/
+    background-color: #f0f0f0;
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Adjust the height based on your content */
+    margin: 0;
+    /* Remove default margin to fill the entire viewport */
+}
+
+/* Adjust the width and height of the carousel */
+#carouselExample {
+    max-width: 100vw;
+    /* Set your desired maximum width */
+    margin-top: 7px;
+}
+
+/* Adjust the width and height of the carousel images */
+.carousel-inner img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(18, 17, 17, 0.9);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.btn {
+    background-color: #333;
+
+}
+
+.hori-slidebar {
+    margin-top: 12px;
+}
+
+.horiimg {
+    width: 400px;
+    height: 300px;
+}
+
+.horiimg:hover {
+    box-shadow: 0 4px 8px rgba(66, 66, 66, 0.9);
+    transform: scale(.9);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.scrollmenu {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    /* Set the width to 100% */
+}
+
+/* Style for individual image and text container */
+.scrollmenu div {
+    display: inline-block;
+    margin-right: 10px;
+    /* Add some spacing between each image and text container */
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.discount-text {
+    color: black;
+}
+
+.grey {
+    color: #333;
+}
+
+.banner{
+    width: 1510px;
+    margin-top: 10px;
+}
